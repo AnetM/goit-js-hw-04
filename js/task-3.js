@@ -85,6 +85,7 @@ const users = [
   },
 ];
 
+// Отримати масив імен користувачів за статтю (поле gender).
 
 const getUsersWithGender = (users, gender) => {
     return users.filter(user => user.gender === gender).map(user => user.name)

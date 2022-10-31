@@ -85,6 +85,8 @@ const users = [
   },
 ];
 
+// Отримати масив об'єктів користувачів за кольором очей (поле eyeColor).
+
 const getUsersWithEyeColor = (users, color) => users.filter(user => user.eyeColor === color);
 
 
